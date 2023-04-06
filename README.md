@@ -61,7 +61,12 @@ The driver module contain 4 driver for stepper.
 
 
 
+----------
+### To go further
 
+Some parts needs to be adapter, like the shoulder, the cable management, or the placement of the cards into the basement.   
+The robot coulb be better with a last rotary axis, beetween the elbow and the wrist.  
+the contrôle part as begun. But she is not implemented due tu a bluetooth probleme.
 
 ----------
 here is the datasheet of the [driver](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2225_Datasheet_Rev1.11.pdf) for the steppers.  
