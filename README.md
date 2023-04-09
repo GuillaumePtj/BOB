@@ -59,8 +59,46 @@ The driver module contain 4 driver for stepper.
 ----------
 ### Matrix system
 
+Now that we are controlling the motors 1 by 1 by giving the angle command to each of the motors, it is time to control the motor in position. To put this into practice we have to go through a matrix system.  
+he matrix system will allow us to find the angles that each motor must adopt for the robot to reach a desired position.
 
+Ex :  
+the Raspberry sends the following instructions to the STM:  
+ * X-Position
+ * Y-Position
+ * Z-Position
+ * X orientation
+ * Y orientation
+ * Z orientation
+ 
+ and with these instructions the robot should be able to get into the desired position.
 
+ 
+
+It is necessary to establish the "direct geometric model" (this makes it possible to obtain the final position thanks to the angles of the given motors) and invert this model. In our case, we therefore use the "inverse geometric model" which makes it the opposite of the previous model: from a given position, the model calculates the angles for each motor and that is what we want.
+
+What has already been done:
+
+- The inverse geometry model has been established for the first 3 axes, the equations and the code have been written for the first 3 axes. All that's missing is to take into account the reduction ratios of each engine and add the factors in the code and then test the whole thing.
+
+ 
+
+What remains to be done :
+
+- Establish the inverse geometric model for the remaining 2 axes.
+
+Good to know :
+
+The inverse geometric model of the robot is done in two stages (position part and orientation part). The position part of the robot is done (part which manages the first 3 axes) and the orientation part (orientation of the gripper) which is managed by the remaining axes is to be done. For the resolution of the inverse geometry model of the last axes, it is necessary:
+
+ 1) establish the direct geometric model using the Denavit-Hartenberg method
+ 2) Inverse the model by using PAUL's method
+ 3) Once the equations of the remaining angles have been found, implement it in the STM
+
+To learn how to write both models:
+ - See the MSC course (3rd year course)
+ - Youtube explainer videos
+ 
 ----------
 ### To go further
 
