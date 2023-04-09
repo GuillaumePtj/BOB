@@ -23,7 +23,7 @@ The robot :
   * contain a raspberry PI 4, and a STM32
   * present a total of 3 servomotors ans 3 steppers
 
-----------
+---------------
 
 # The realisation
 
@@ -31,7 +31,7 @@ The robot :
 
 The majority of the parts are modeled on SOLIDWORKS, and printed in 3D by the school. The mecanical parts (rollings, belt,...) are bought on RScomponents.  
 Some other parts are given by the mechanical workshop.
-
+-----
 ### Hardware
 
 The hardware part is composed by 5 main devices :
@@ -48,7 +48,7 @@ STM32 is used because of his great ability to real time work, which is better fo
 AC/DC converter take the 230V / 50Hz in input and comes out of 24V.  
 The power module take the 24V, and divide it to provide 12V, 7.4V, 5V, and 3.3V.  
 The driver module contain 4 driver for stepper.
-
+-----
 ### Software
 
 ### Raspberry code
@@ -56,7 +56,7 @@ The driver module contain 4 driver for stepper.
 ### STM32 code
 
 
-----------
+-----
 ### Matrix system
 
 Now that we are controlling the motors 1 by 1 by giving the angle command to each of the motors, it is time to control the motor in position. To put this into practice we have to go through a matrix system.  
