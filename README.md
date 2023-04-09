@@ -64,9 +64,9 @@ he matrix system will allow us to find the angles that each motor must adopt for
 
 Ex :  
 the Raspberry sends the following instructions to the STM:  
- * X-Position
- * Y-Position
- * Z-Position
+ * X Position
+ * Y Position
+ * Z Position
  * X orientation
  * Y orientation
  * Z orientation
