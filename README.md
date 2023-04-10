@@ -49,9 +49,7 @@ AC/DC converter take the 230V / 50Hz in input and comes out of 24V.
 The power module take the 24V, and divide it to provide 12V, 7.4V, 5V, and 3.3V.  
 The driver module contain 4 driver for stepper.
 
-![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230951271-302d198e-4b07-4537-a267-7c11a3fc3b3b.png)
-
-
+![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230952590-caafa01b-2c05-45d8-a59a-215dd9788fd3.png)
 
 -----
 ### Software
