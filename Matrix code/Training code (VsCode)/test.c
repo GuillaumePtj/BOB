@@ -1,7 +1,22 @@
+/**
+
+@file main.c
+@brief Ce programme calcule les angles q1, q2, q3 d'un bras robotique en fonction de sa position spatiale.
+@author [Carton Clément]
+*/
+
 #include <stdlib.h>
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
+
+/**
+
+@brief Cette fonction calcule les angles q1, q2, q3 en fonction d'une position donnée.
+@param position un tableau contenant les coordonnées de la position spatiale du bras robotique
+@param degres un tableau où seront stockées les valeurs des angles q1, q2 et q3 en degrés
+@return void
+*/
 
 void position2deg(int position[], int degres[]){
     int px = position[0];
