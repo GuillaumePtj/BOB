@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/gui/Downloads/Stepper_Driver_TMC2225-SA-Tx4/hardware/Stepper_Driver_TMC2225-SA-Tx4/Stepper_Driver_TMC2225-SA-Tx4.kicad_sch</source>
+    <date>mar. 28 mars 2023 13:58:16</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Stepper_Driver_TMC2225-SA-Tx4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TMC2225.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TMC2225.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TMC2225.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TMC2225.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>709396d1-e6e9-4c0d-8352-b5568a530677</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75dfbdc2-3e52-4586-93e2-baf4de980cb3</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5a96373-f859-4985-800e-3b14380b0a30</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e219b868-673d-4bfe-a26e-06b50d0f72ec</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d373a33-1ebd-49cc-9ace-16fae53e74cb</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ca8fff8-e520-4b0e-afaf-c44b2d0d8116</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>674c7628-cd91-458b-8f9c-8b3bd11a1e86</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4fbd196-f9c3-4098-8ec3-e0d5bdc48b9b</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d6dca29-d619-4d81-b55e-32e630554cec</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e3a2cc2-a100-4b3f-b9cf-12a572722f50</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25843d86-c741-4835-93c2-7141851b2dda</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ff85966-836b-43de-855c-c3172d975211</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e514f12-ac7e-4077-b358-55bd5c3313a6</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>921991a2-a924-4e10-9f52-18e1ba987249</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>400b247e-c170-4214-a519-f7ec51bbfd3b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper_Driver_TMC2225-SA-Tx4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7388b6de-d65f-4b32-b59b-d27dbbda94a3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>9a4419e3-1b2a-4fc0-928e-21c02eff2664</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>5737d2d5-a3e1-4807-bb65-07599480182f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>2397ed1b-891b-4b04-af8c-144d12b54464</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>8b80e819-74aa-492b-8100-4b6b84bab77f</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>6e01384b-6a6d-46eb-9f95-3d242bc48861</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>0ae8645a-2d88-4229-abfa-03920a66b548</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>e2abf706-c6e7-4320-8e96-7989832d9fbb</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>14883fe3-c096-4ad4-906c-e774430bd703</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>b4b7d5f5-b8aa-42b2-9efe-a0f2edd56e63</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>c60cc8dc-21f7-4b6d-a499-2bb0cc438557</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>77ca42d2-638d-4604-ac8b-d89491c0c560</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>bdae73fc-bdcc-469e-94e2-6101fa4af509</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>110m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>aa3b281e-4284-42d6-8a82-bc00b0ffd3e9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>ff065cd9-67b8-42ea-a19f-04322dfd6681</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>c6c2175c-d773-457a-83df-2137d1229e4c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>4f1407da-d6ca-4b4c-8cf4-b7d520134011</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TMC2225-SA-T</value>
+      <footprint>Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm_ThermalVias</footprint>
+      <libsource lib="Custom_laptop" part="TMC2225-SA-T" description=""/>
+      <property name="Sheetname" value="TMC2225-1"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-1/" tstamps="/4151a06d-5974-40a2-b555-4aafeb2eacad/"/>
+      <tstamps>4a979715-19c7-40e3-81db-4291537cf472</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>9a4419e3-1b2a-4fc0-928e-21c02eff2664</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>5737d2d5-a3e1-4807-bb65-07599480182f</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>2397ed1b-891b-4b04-af8c-144d12b54464</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>8b80e819-74aa-492b-8100-4b6b84bab77f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>6e01384b-6a6d-46eb-9f95-3d242bc48861</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>0ae8645a-2d88-4229-abfa-03920a66b548</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>e2abf706-c6e7-4320-8e96-7989832d9fbb</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>14883fe3-c096-4ad4-906c-e774430bd703</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>b4b7d5f5-b8aa-42b2-9efe-a0f2edd56e63</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>c60cc8dc-21f7-4b6d-a499-2bb0cc438557</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>77ca42d2-638d-4604-ac8b-d89491c0c560</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>bdae73fc-bdcc-469e-94e2-6101fa4af509</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>110m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>aa3b281e-4284-42d6-8a82-bc00b0ffd3e9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>ff065cd9-67b8-42ea-a19f-04322dfd6681</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>c6c2175c-d773-457a-83df-2137d1229e4c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>4f1407da-d6ca-4b4c-8cf4-b7d520134011</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TMC2225-SA-T</value>
+      <footprint>Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm_ThermalVias</footprint>
+      <libsource lib="Custom_laptop" part="TMC2225-SA-T" description=""/>
+      <property name="Sheetname" value="TMC2225-2"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-2/" tstamps="/2205aed0-cad0-4a72-befe-d88a8e93990f/"/>
+      <tstamps>4a979715-19c7-40e3-81db-4291537cf472</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>9a4419e3-1b2a-4fc0-928e-21c02eff2664</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>5737d2d5-a3e1-4807-bb65-07599480182f</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>2397ed1b-891b-4b04-af8c-144d12b54464</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>8b80e819-74aa-492b-8100-4b6b84bab77f</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>6e01384b-6a6d-46eb-9f95-3d242bc48861</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>0ae8645a-2d88-4229-abfa-03920a66b548</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>e2abf706-c6e7-4320-8e96-7989832d9fbb</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>14883fe3-c096-4ad4-906c-e774430bd703</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>b4b7d5f5-b8aa-42b2-9efe-a0f2edd56e63</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>c60cc8dc-21f7-4b6d-a499-2bb0cc438557</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>77ca42d2-638d-4604-ac8b-d89491c0c560</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>bdae73fc-bdcc-469e-94e2-6101fa4af509</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>110m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>aa3b281e-4284-42d6-8a82-bc00b0ffd3e9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>ff065cd9-67b8-42ea-a19f-04322dfd6681</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>c6c2175c-d773-457a-83df-2137d1229e4c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>4f1407da-d6ca-4b4c-8cf4-b7d520134011</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TMC2225-SA-T</value>
+      <footprint>Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm_ThermalVias</footprint>
+      <libsource lib="Custom_laptop" part="TMC2225-SA-T" description=""/>
+      <property name="Sheetname" value="TMC2225-3"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-3/" tstamps="/9f5b587c-7579-4e90-a6f2-c8afc27e29a7/"/>
+      <tstamps>4a979715-19c7-40e3-81db-4291537cf472</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>9a4419e3-1b2a-4fc0-928e-21c02eff2664</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>5737d2d5-a3e1-4807-bb65-07599480182f</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>2397ed1b-891b-4b04-af8c-144d12b54464</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>8b80e819-74aa-492b-8100-4b6b84bab77f</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>6e01384b-6a6d-46eb-9f95-3d242bc48861</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>0ae8645a-2d88-4229-abfa-03920a66b548</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>e2abf706-c6e7-4320-8e96-7989832d9fbb</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>14883fe3-c096-4ad4-906c-e774430bd703</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>b4b7d5f5-b8aa-42b2-9efe-a0f2edd56e63</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>c60cc8dc-21f7-4b6d-a499-2bb0cc438557</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>77ca42d2-638d-4604-ac8b-d89491c0c560</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>bdae73fc-bdcc-469e-94e2-6101fa4af509</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>110m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>aa3b281e-4284-42d6-8a82-bc00b0ffd3e9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>ff065cd9-67b8-42ea-a19f-04322dfd6681</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>150m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>c6c2175c-d773-457a-83df-2137d1229e4c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>4f1407da-d6ca-4b4c-8cf4-b7d520134011</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TMC2225-SA-T</value>
+      <footprint>Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm_ThermalVias</footprint>
+      <libsource lib="Custom_laptop" part="TMC2225-SA-T" description=""/>
+      <property name="Sheetname" value="TMC2225-4"/>
+      <property name="Sheetfile" value="TMC2225.kicad_sch"/>
+      <sheetpath names="/TMC2225-4/" tstamps="/c5863547-58ae-463b-ad33-1acc277096d0/"/>
+      <tstamps>4a979715-19c7-40e3-81db-4291537cf472</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_laptop" part="TMC2225-SA-T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC2225-SA-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CPO" type="passive"/>
+        <pin num="2" name="CPI" type="passive"/>
+        <pin num="3" name="VCP" type="passive"/>
+        <pin num="4" name="VS" type="power_in"/>
+        <pin num="5" name="OA2" type="passive"/>
+        <pin num="6" name="BRA" type="passive"/>
+        <pin num="7" name="OA1" type="passive"/>
+        <pin num="8" name="OB1" type="passive"/>
+        <pin num="9" name="BRB" type="passive"/>
+        <pin num="10" name="OB2" type="passive"/>
+        <pin num="11" name="VS" type="power_in"/>
+        <pin num="12" name="VREF" type="passive"/>
+        <pin num="13" name="TEST" type="passive"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="5VOUT" type="passive"/>
+        <pin num="16" name="VCC_IO" type="power_in"/>
+        <pin num="17" name="PDN_UART" type="passive"/>
+        <pin num="18" name="DIAG" type="passive"/>
+        <pin num="19" name="SPREAD" type="passive"/>
+        <pin num="20" name="DIR" type="passive"/>
+        <pin num="21" name="ENN" type="passive"/>
+        <pin num="22" name="STEP" type="passive"/>
+        <pin num="23" name="N.C" type="passive"/>
+        <pin num="24" name="CLK" type="passive"/>
+        <pin num="25" name="MS1" type="passive"/>
+        <pin num="26" name="MS2" type="passive"/>
+        <pin num="27" name="INDEX" type="passive"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC_IO" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VCC_IO" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="VCC_IO" pintype="power_in"/>
+      <node ref="U4" pin="16" pinfunction="VCC_IO" pintype="power_in"/>
+    </net>
+    <net code="2" name="/TMC2225-1/BRA">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="BRA" pintype="passive"/>
+    </net>
+    <net code="3" name="/TMC2225-1/BRB">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="BRB" pintype="passive"/>
+    </net>
+    <net code="4" name="/TMC2225-1/OA1">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="5" name="/TMC2225-1/OA2">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="6" name="/TMC2225-1/OB1">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="7" name="/TMC2225-1/OB2">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="8" name="/TMC2225-2/BRA">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="BRA" pintype="passive"/>
+    </net>
+    <net code="9" name="/TMC2225-2/BRB">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="BRB" pintype="passive"/>
+    </net>
+    <net code="10" name="/TMC2225-2/OA1">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="11" name="/TMC2225-2/OA2">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="12" name="/TMC2225-2/OB1">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="13" name="/TMC2225-2/OB2">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="14" name="/TMC2225-3/BRA">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="BRA" pintype="passive"/>
+    </net>
+    <net code="15" name="/TMC2225-3/BRB">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="BRB" pintype="passive"/>
+    </net>
+    <net code="16" name="/TMC2225-3/OA1">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="17" name="/TMC2225-3/OA2">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="18" name="/TMC2225-3/OB1">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="19" name="/TMC2225-3/OB2">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="20" name="/TMC2225-4/BRA">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="BRA" pintype="passive"/>
+    </net>
+    <net code="21" name="/TMC2225-4/BRB">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="BRB" pintype="passive"/>
+    </net>
+    <net code="22" name="/TMC2225-4/OA1">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="OA1" pintype="passive"/>
+    </net>
+    <net code="23" name="/TMC2225-4/OA2">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OA2" pintype="passive"/>
+    </net>
+    <net code="24" name="/TMC2225-4/OB1">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="OB1" pintype="passive"/>
+    </net>
+    <net code="25" name="/TMC2225-4/OB2">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="OB2" pintype="passive"/>
+    </net>
+    <net code="26" name="DIR_1">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="STEP" pintype="passive"/>
+    </net>
+    <net code="27" name="DIR_2">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="STEP" pintype="passive"/>
+    </net>
+    <net code="28" name="DIR_3">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="STEP" pintype="passive"/>
+    </net>
+    <net code="29" name="DIR_4">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="STEP" pintype="passive"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP6" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP7" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP8" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="TEST" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="ENN" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="TEST" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="ENN" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="29" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="TEST" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="21" pinfunction="ENN" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="29" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U4" pin="13" pinfunction="TEST" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="21" pinfunction="ENN" pintype="passive"/>
+      <node ref="U4" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="29" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="31" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CPI" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="CPO" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="5VOUT" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="CPI" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="CPO" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="5VOUT" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="CPI" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="CPO" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="5VOUT" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(C31-Pad1)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="CPI" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="CPO" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(C32-Pad2)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(C33-Pad2)">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VCP" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(C37-Pad2)">
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="5VOUT" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="MS2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="MS1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="MS2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="MS1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="MS2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="MS1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(JP7-Pad2)">
+      <node ref="JP7" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="26" pinfunction="MS2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(JP8-Pad2)">
+      <node ref="JP8" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="MS1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="DIAG" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="DIAG" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="DIAG" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="DIAG" pintype="passive"/>
+    </net>
+    <net code="69" name="STEP_1">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="DIR" pintype="passive"/>
+    </net>
+    <net code="70" name="STEP_2">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="DIR" pintype="passive"/>
+    </net>
+    <net code="71" name="STEP_3">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="DIR" pintype="passive"/>
+    </net>
+    <net code="72" name="STEP_4">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="DIR" pintype="passive"/>
+    </net>
+    <net code="73" name="VCC">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="VS" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VS" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="VS" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="11" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="VS" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="VS" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="74" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PDN_UART" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="SPREAD" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="N.C" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="CLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="INDEX" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="PDN_UART" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="SPREAD" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U2-Pad23)">
+      <node ref="U2" pin="23" pinfunction="N.C" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U2-Pad24)">
+      <node ref="U2" pin="24" pinfunction="CLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U2-Pad27)">
+      <node ref="U2" pin="27" pinfunction="INDEX" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad17)">
+      <node ref="U3" pin="17" pinfunction="PDN_UART" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="SPREAD" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U3-Pad23)">
+      <node ref="U3" pin="23" pinfunction="N.C" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="CLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="INDEX" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U4-Pad12)">
+      <node ref="U4" pin="12" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="PDN_UART" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U4-Pad19)">
+      <node ref="U4" pin="19" pinfunction="SPREAD" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U4-Pad23)">
+      <node ref="U4" pin="23" pinfunction="N.C" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U4-Pad24)">
+      <node ref="U4" pin="24" pinfunction="CLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U4-Pad27)">
+      <node ref="U4" pin="27" pinfunction="INDEX" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
