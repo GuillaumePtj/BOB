@@ -32,7 +32,7 @@ The robot :
 The majority of the parts are modeled on SOLIDWORKS, and printed in 3D by the school. The mecanical parts (rollings, belt,...) are bought on RScomponents.  
 Some other parts are given by the mechanical workshop.
 -----
-### Hardware
+### Hardware  
 
 The hardware part is composed by 5 main devices :
 
@@ -49,7 +49,9 @@ AC/DC converter take the 230V / 50Hz in input and comes out of 24V.
 The power module take the 24V, and divide it to provide 12V, 7.4V, 5V, and 3.3V.  
 The driver module contain 4 driver for stepper.
 
-![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230953110-f74e5f7a-872a-472c-9654-7c4e78580b0f.png)
+
+![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230954126-48aa1522-587e-458c-801f-da79a4b33ce6.png)
+
 
 
 -----
