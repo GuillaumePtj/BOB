@@ -32,7 +32,7 @@ The robot :
 The majority of the parts are modeled on SOLIDWORKS, and printed in 3D by the school. The mecanical parts (rollings, belt,...) are bought on RScomponents.  
 Some other parts are given by the mechanical workshop.
 -----
-### Hardware  
+### Hardware
 
 The hardware part is composed by 5 main devices :
 
@@ -49,15 +49,38 @@ AC/DC converter take the 230V / 50Hz in input and comes out of 24V.
 The power module take the 24V, and divide it to provide 12V, 7.4V, 5V, and 3.3V.  
 The driver module contain 4 driver for stepper.
 
-
-![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230954126-48aa1522-587e-458c-801f-da79a4b33ce6.png)
-
+![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230953110-f74e5f7a-872a-472c-9654-7c4e78580b0f.png)
 
 
 -----
 ### Software
 
 ### Raspberry code
+
+Version 1:
+VERSION USED DURING THE DEMONSTRATION
+The raspberry and the STM communicate in UART. The raspberry sends the positioning data destined for a single motor to the STM with the following frame:
+- Start of frame (On 2 bytes, only 1 are sent)
+- Engine number (on 1 byte)
+- Engine angle (On 2 bytes)
+- Direction of rotation (On 1 byte)
+- Rotation Speed (On 1 byte)
+- End of frame (On 2 bytes only 1 are sent).
+
+Version 2:
+DRAFTED BUT NEEDS TO BE IMPLEMENTED LATER
+We take the base of version 1 except that this time we seek to direct the motors with the coordinates according to the X, Y, Z positions of our reference.
+The frame sent is the following one :
+- Start of frame (On 2 bytes, only 1 are sent)
+- Position along X and around X (On 2 bytes)
+- Position along Y and around Y (On 2 bytes)
+- Position along Z and around Z (On 2 bytes)
+- End of frame (On 2 bytes only 1 are sent).
+
+More information in the "matrix" section
+
+predictable :
+implement this code in interrupt
 
 ### STM32 code
 
@@ -79,15 +102,11 @@ the Raspberry sends the following instructions to the STM:
  
  and with these instructions the robot should be able to get into the desired position.
 
- 
-
 It is necessary to establish the "direct geometric model" (this makes it possible to obtain the final position thanks to the angles of the given motors) and invert this model. In our case, we therefore use the "inverse geometric model" which makes it the opposite of the previous model: from a given position, the model calculates the angles for each motor and that is what we want.
 
 What has already been done:
 
 - The inverse geometry model has been established for the first 3 axes, the equations and the code have been written for the first 3 axes. All that's missing is to take into account the reduction ratios of each engine and add the factors in the code and then test the whole thing.
-
- 
 
 What remains to be done :
 
