@@ -105,12 +105,18 @@ Motor 2 (Wirst_Z) :
 	* 1->right
 	
 Motor 3 (Wirst_X) : 
+
 	* 0 -> down
+	
 	* 1 -> up
+	
+	
 	
 Motor 4 (Elbow) : 
 	* 0 -> up
+	
 	* 1 -> down
+	
 				 
 
 -----
