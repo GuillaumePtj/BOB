@@ -96,11 +96,11 @@ For both types of motors, the direction is a bit of 0 or 1. The only difference 
 
 ### Direction of the motors in the state of the pins
 Motor 1 (Clamp) : 
-	* 0 -> close
-	* 1 -> open
+	* 0->close
+	* 1->open
 Motor 2 (Wirst_Z) : 
-	* 0 -> left
-	* 1 -> right
+	* 0->left
+	* 1->right
 Motor 3 (Wirst_X) : 
 	* 0 -> down
 	* 1 -> up
