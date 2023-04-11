@@ -58,35 +58,21 @@ The driver module contain 4 driver for stepper.
 
 ### Raspberry code
 
-Version 1:
-VERSION USED DURING THE DEMONSTRATION
-The raspberry and the STM communicate in UART. The raspberry sends the positioning data destined for a single motor to the STM with the following frame:
-- Start of frame (On 2 bytes, only 1 are sent)
-- Engine number (on 1 byte)
-- Engine angle (On 2 bytes)
-- Direction of rotation (On 1 byte)
-- Rotation Speed (On 1 byte)
-- End of frame (On 2 bytes only 1 are sent).
-
-Version 2:
-DRAFTED BUT NEEDS TO BE IMPLEMENTED LATER
-We take the base of version 1 except that this time we seek to direct the motors with the coordinates according to the X, Y, Z positions of our reference.
-The frame sent is the following one :
-- Start of frame (On 2 bytes, only 1 are sent)
-- Position along X and around X (On 2 bytes)
-- Position along Y and around Y (On 2 bytes)
-- Position along Z and around Z (On 2 bytes)
-- End of frame (On 2 bytes only 1 are sent).
+**code actually runing into the robot**  
+The raspberry and the STM communicate in UART. The raspberry sends the positioning data destined for a single motor to the STM with one single data frame of 7 bytes.
+In order we have:  start of frame, engine number, engine angle, direction of rotation, rotation Speed, end of frame.
+ 
+**Drafted but needs to be implemented later**  
+We take the base of the first code except that this time we seek to direct the motors with the coordinates according to the X, Y, Z positions of our reference.
+The frame sent is the following this time made of :  Start of frame, Position along X and around X, Position along Y and around Y, Position along Z and around Z, End of frame.
 
 More information in the "matrix" section
 
-predictable :
-implement this code in interrupt
 
 ### STM32 code
 
-Receive the data frame by UART :
-- UART port initialization: baud rate: 9600  in interrupt mode 
+Step to receive and use the data frame by UART :
+- UART port binary speed: 9600  in interrupt mode 
 - In CallBack function : Set a flag then receive the data frame into an integer array
 - In the main function : We split the data written in the array
 - Send the data to the motors
@@ -136,7 +122,8 @@ To learn how to write both models:
 
 Some parts needs to be adapter, like the shoulder, the cable management, or the placement of the cards into the basement.   
 The robot coulb be better with a last rotary axis, beetween the elbow and the wrist.  
-the contrôle part as begun. But she is not implemented due tu a bluetooth probleme.
+The contrôle part as begun. But she is not implemented due tu a bluetooth probleme.
+The code in python need to work with interrupt so that we can use the raspberry for interfacing while she send data frame.
 
 ----------
 here is the datasheet of the [driver](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2225_Datasheet_Rev1.11.pdf) for the steppers.  
