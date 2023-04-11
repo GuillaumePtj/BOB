@@ -94,7 +94,7 @@ When the robot is initialized, the servomotors move to their "central" position 
 
 For both types of motors, the direction is a bit of 0 or 1. The only difference between the two types of motors is that the servos cannot be rotated indefinitely. For each direction it has an angle of action of 150°, so 300° in total.
 
-/* Direction of the motors in the state of the pins
+Direction of the motors in the state of the pins
 				 * Motor 1 (Clamp) : 0 -> close
 				  					 1 -> open
 				 * Motor 2 (Wirst_Z) : 0 -> left
