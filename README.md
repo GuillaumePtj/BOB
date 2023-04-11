@@ -31,7 +31,7 @@ The robot :
 
 The majority of the parts are modeled on SOLIDWORKS, and printed in 3D by the school. The mecanical parts (rollings, belt,...) are bought on RScomponents.  
 Some other parts are given by the mechanical workshop.  
-
+Files are available in the Meca branch.
 -----
 ### Hardware
 
@@ -49,6 +49,7 @@ STM32 is used because of his great ability to real time work, which is better fo
 AC/DC converter take the 230V / 50Hz in input and comes out of 24V.  
 The power module take the 24V, and divide it to provide 12V, 7.4V, 5V, and 3.3V.  
 The driver module contain 4 driver for stepper.
+All the PCB are designed on kiCad
 
 ![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/114493167/230955787-32642c2e-b8c4-4015-9b7a-c6681a64a51d.png)
 
@@ -56,7 +57,12 @@ The driver module contain 4 driver for stepper.
 -----
 ### Software
 
+The Python code has been written on VSCode, and C code has been written on STM32CubeIDE.
+All the codes are available in Code branch.
+
 ### Raspberry code
+
+The Raspberry has already been configurate by activating SSH protocole and Wi-Fi.
 
 **code actually runing into the robot**  
 The raspberry and the STM communicate in UART. The raspberry sends the positioning data destined for a single motor to the STM with one single data frame of 7 bytes.
@@ -118,11 +124,13 @@ The inverse geometric model of the robot is done in two stages (position part an
 ----------
 ### To go further
 
-Some parts needs to be adapter, like the shoulder, the cable management, or the placement of the cards into the basement.   
-The robot coulb be better with a last rotary axis, beetween the elbow and the wrist.  
-The contrôle part as begun. But she is not implemented due tu a bluetooth probleme.
-The code in python need to work with interrupt so that we can use the raspberry for interfacing while she send data frame.
+Some parts needs to be adapted, like the shoulder, the cable management, or the placement of the cards into the basement. 
+The driver PCB doesn't work correctly, some debugging is needed.
+The robot could be better with a last rotary axis, beetween the elbow and the wrist.  
+The contrôle part as begun. But she is not implemented due to a bluetooth probleme and the fact that there is one articulation less.
+The code in python need to work with interrupt so that we can use the Raspberry for interfacing while she send data frame.
 
 ----------
 here is the datasheet of the [driver](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2225_Datasheet_Rev1.11.pdf) for the steppers.  
 here is the datasheet of the [servomotors](https://emanual.robotis.com/docs/en/dxl/x/xl320/).
+here is the documentation for the [STM32](https://www.st.com/resource/en/datasheet/stm32l412kb.pdf).
