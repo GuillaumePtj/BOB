@@ -84,11 +84,11 @@ implement this code in interrupt
 
 ### STM32 code
 
-Receive the frame by UART :
+Receive the data frame by UART :
 - UART port initialization: baud rate: 9600  in interrupt mode 
-- In CallBack function : Set a flag then receive the frame into an integer array
+- In CallBack function : Set a flag then receive the data frame into an integer array
 - In the main function : We split the data written in the array
-- Send the data to our motor
+- Send the data to the motors
 
 
 -----
