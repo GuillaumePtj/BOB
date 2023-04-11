@@ -92,6 +92,7 @@ When the robot is initialized, the servomotors move to their "central" position 
 
 **Direction control :** 
 
+For both types of motors, the direction is a bit of 0 or 1. The only difference between the two types of motors is that the servos cannot be rotated indefinitely. For each direction it has an angle of action of 150°, so 300° in total.
 -----
 ### Matrix system
 
