@@ -90,7 +90,7 @@ The datas received are : motor number, wanted angle, direction and speed.
 The wrist and the gripper are controlled with servo motors. Shoulder and elbow are controlled by stepper motors.
 When the robot is initialized, the servomotors move to their "central" position and their LEDs are green. After a short time they turn purple and the robot is ready to receive instructions.
 
-** Direction control : ** 
+**Direction control :** 
 
 -----
 ### Matrix system
