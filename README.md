@@ -90,9 +90,16 @@ The datas received are : motor number, wanted angle, direction and speed.
 The wrist and the gripper are controlled with servo motors. Shoulder and elbow are controlled by stepper motors.
 When the robot is initialized, the servomotors move to their "central" position and their LEDs are green. After a short time they turn purple and the robot is ready to receive instructions.
 
+**Speed control :**
+
+The stepper motors can be controlled with 3 different speeds which are managed by three differently set timers. For the servos we gave a value between 0 and 1023. The higher this number, the faster the motor will go. We have preset 3 different speeds for them too.
+
 **Direction control :** 
 
 For both types of motors, the direction is a bit of 0 or 1. The only difference between the two types of motors is that the servos cannot be rotated indefinitely. For each direction it has an angle of action of 150°, so 300° in total.
+
+**Angle control :**
+
 
 ### Direction of the motors in the state of the pins
 
