@@ -102,9 +102,11 @@ Motor 1 (Clamp) :
 Motor 2 (Wirst_Z) : 
  * 0->left
  * 1->right
+
 Motor 3 (Wirst_X) : 
  * 0 -> down
- * 1 -> up	
+ * 1 -> up
+
 Motor 4 (Elbow) : 
  * 0 -> up
  * 1 -> down
