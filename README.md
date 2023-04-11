@@ -132,5 +132,5 @@ The code in python need to work with interrupt so that we can use the Raspberry 
 
 ----------
 here is the datasheet of the [driver](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2225_Datasheet_Rev1.11.pdf) for the steppers.  
-here is the datasheet of the [servomotors](https://emanual.robotis.com/docs/en/dxl/x/xl320/).
+here is the datasheet of the [servomotors](https://emanual.robotis.com/docs/en/dxl/x/xl320/).  
 here is the documentation for the [STM32](https://www.st.com/resource/en/datasheet/stm32l412kb.pdf).
