@@ -86,6 +86,11 @@ Step to receive and use the data frame by UART :
 - In the main function : We split the data written in the array
 - Send the data to the motors
 
+The datas received are : motor number, wanted angle, direction and speed.
+The wrist and the gripper are controlled with servo motors. Shoulder and elbow are controlled by stepper motors.
+When the robot is initialized, the servomotors move to their "central" position and their LEDs are green. After a short time they turn purple and the robot is ready to receive instructions.
+
+Direction control : 
 
 -----
 ### Matrix system
