@@ -27,7 +27,7 @@ The robot :
 
 # The realisation
 
-### Mecanics  
+Mecanics  
 
 The majority of the parts are modeled on SOLIDWORKS, and printed in 3D by the school. The mecanical parts (rollings, belt,...) are bought on RScomponents.  
 Some other parts are given by the mechanical workshop.
