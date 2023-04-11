@@ -60,11 +60,13 @@ The driver module contain 4 driver for stepper.
 
 **code actually runing into the robot**  
 The raspberry and the STM communicate in UART. The raspberry sends the positioning data destined for a single motor to the STM with one single data frame of 7 bytes.
-In order we have:  start of frame, engine number, engine angle, direction of rotation, rotation Speed, end of frame.
+In order we have:  
+Start of frame, engine number, engine angle, direction of rotation, rotation Speed, end of frame.
  
 **Drafted but needs to be implemented later**  
 We take the base of the first code except that this time we seek to direct the motors with the coordinates according to the X, Y, Z positions of our reference.
-The frame sent is the following this time made of :  Start of frame, Position along X and around X, Position along Y and around Y, Position along Z and around Z, End of frame.
+The frame sent is the following this time made of :  
+Start of frame, Position along X and around X, Position along Y and around Y, Position along Z and around Z, End of frame.
 
 More information in the "matrix" section
 
