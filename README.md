@@ -84,7 +84,7 @@ Step to receive and use the data frame by UART :
 ### Matrix system
 
 Now that we are controlling the motors 1 by 1 by giving the angle command to each of the motors, it is time to control the motor in position. To put this into practice we have to go through a matrix system.  
-he matrix system will allow us to find the angles that each motor must adopt for the robot to reach a desired position.
+The matrix system will allow us to find the angles that each motor must adopt for the robot to reach a desired position.
 
 Ex :  
 the Raspberry sends the following instructions to the STM:  
@@ -96,7 +96,7 @@ the Raspberry sends the following instructions to the STM:
  * Z orientation
  
  and with these instructions the robot should be able to get into the desired position.
-
+ 
 It is necessary to establish the "direct geometric model" (this makes it possible to obtain the final position thanks to the angles of the given motors) and invert this model. In our case, we therefore use the "inverse geometric model" which makes it the opposite of the previous model: from a given position, the model calculates the angles for each motor and that is what we want.
 
 What has already been done:
@@ -114,10 +114,6 @@ The inverse geometric model of the robot is done in two stages (position part an
  1) establish the direct geometric model using the Denavit-Hartenberg method
  2) Inverse the model by using PAUL's method
  3) Once the equations of the remaining angles have been found, implement it in the STM
-
-To learn how to write both models:
- - See the MSC course (3rd year course)
- - Youtube explainer videos
  
 ----------
 ### To go further
