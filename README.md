@@ -99,7 +99,7 @@ For both types of motors, the direction is a bit of 0 or 1. The only difference 
 Motor 1 (Clamp) : 
  * 0->close
  * 1->open
- * 
+ 
 Motor 2 (Wirst_Z) : 
  * 0->left
  * 1->right
